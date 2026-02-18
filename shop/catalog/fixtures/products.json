@@ -1,0 +1,115 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Fruit",
+      "slug": "fruit",
+      "image": "categories/fruit.jpg"
+    }
+  },
+    {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Vegetable",
+      "slug": "vegetable",
+      "image": "categories/vegetable.jpg"
+    }
+  },
+  {
+    "model": "catalog.subcategory",
+    "pk": 1,
+    "fields": {
+      "name": "Banana",
+      "slug": "banana",
+      "image": "subcategories/banan.jpg",
+      "category": 1
+    }
+  },
+    {
+    "model": "catalog.subcategory",
+    "pk": 2,
+    "fields": {
+      "name": "Apple",
+      "slug": "apple",
+      "image": "subcategories/apple.jpg",
+      "category": 1
+    }
+  },
+  {
+    "model": "catalog.subcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Potato",
+      "slug": "potato",
+      "image": "subcategories/potato.jpg",
+      "category": 2
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Yellow banana",
+      "slug": "yellow-banana",
+      "price": "140",
+      "subcategory": 1,
+      "image_small": "products/small/banan-yellow.jpg",
+      "image_medium": "products/medium/banan-yellow.jpg",
+      "image_large": "products/large/banan-yellow.jpg"
+    }
+  },
+    {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Red apple",
+      "slug": "red-apple",
+      "price": "99",
+      "subcategory": 2,
+      "image_small": "products/small/apple-red.jpg",
+      "image_medium": "products/medium/apple-red.jpg",
+      "image_large": "products/large/apple-red.jpg"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "Green apple",
+      "slug": "green-apple",
+      "price": "120",
+      "subcategory": 2,
+      "image_small": "products/small/apple-green.jpg",
+      "image_medium": "products/medium/apple-green.jpg",
+      "image_large": "products/large/apple-green.jpg"
+    }
+  },
+    {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "name": "Potato Alaska",
+      "slug": "potato-alaska",
+      "price": "110",
+      "subcategory": 3,
+      "image_small": "products/small/potato-alaska.jpg",
+      "image_medium": "products/medium/potato-alaska.jpg",
+      "image_large": "products/large/potato-alaska.jpg"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "name": "Potato Riviera",
+      "slug": "potato-riviera",
+      "price": "95",
+      "subcategory": 3,
+      "image_small": "products/small/potato-riviera.jpg",
+      "image_medium": "products/medium/potato-riviera.jpg",
+      "image_large": "products/large/potato-riviera.jpg"
+    }
+  }
+]
