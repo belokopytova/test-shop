@@ -1,5 +1,5 @@
 
 .venv/
 venv/
-db.sqlite3
+shop/db.sqlite3
 .idea/
