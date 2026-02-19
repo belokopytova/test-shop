@@ -98,3 +98,9 @@ SIMPLE_JWT = {
 `ACCESS_TOKEN_LIFETIME` – короткоживущий JWT-токен 
 
 `REFRESH_TOKEN_LIFETIME` – токен, с помощью которого можно получить новый access-токен.
+
+_______________
+
+Документация по API доступна онлайн на GitHub Pages:  
+
+[Просмотреть Swagger UI](https://belokopytova.github.io/) 
